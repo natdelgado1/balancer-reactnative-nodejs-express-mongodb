@@ -1,17 +1,19 @@
 import { StyleSheet } from 'react-native';
 const buttonStyles = StyleSheet.create(
     {
-
-        btnBasic: {
+        //Estilos del botón de la página de bienvenida
+        btnWelcome: {
             backgroundColor: "#FFFFFF",
-            textDecorationColor: "#63A55B",
-            width: "257px",
-            height: "47px",
+            width: 257,
+            height: 47,
             borderRadius: 6,
             textAlign: "center",
             justifyContent: "center",
             alignItems: "center",
-        }
+            padding: "20 px",
+            marginBottom: 20,
+        },
+
     }
 )
 

@@ -1,24 +1,31 @@
 import { Pressable, SafeAreaView, StyleSheet, Text, View } from "react-native";
 import buttonStyles from "../../estilos/button.style";
+import textStyles from "../../estilos/text.style";
 
+/*COMPONENTE DE LA PÁGINA DE BIENVENIDA*/
 const WelcomePage = ({ navigation }) => {
   return (
     <SafeAreaView style={styles.container}>
-      <Text style={styles.textStyles}>Welcome</Text>
+      <Text style={styles.textStyles}>Bienvenido!</Text>
       <Pressable
         title="Register"
         onPress={() => navigation.navigate("Register")}
-        style={buttonStyles.btnBasic}
+        style={buttonStyles.btnWelcome}
       >
-        <Text>Crear una cuenta</Text>
+        <Text style={textStyles.textGreen}>Crear una cuenta</Text>
       </Pressable>
-      <Pressable title="Login" onPress={() => navigation.navigate("Login")}>
-        <Text>Iniciar Sección</Text>
+      <Pressable
+        title="Login"
+        onPress={() => navigation.navigate("Login")}
+        style={buttonStyles.btnWelcome}
+      >
+        <Text style={textStyles.textGreen}>Iniciar Sección</Text>
       </Pressable>
     </SafeAreaView>
   );
 };
 
+/*ESTILOS DE LA PÁGINA DE BIENVENIDA*/
 const styles = StyleSheet.create({
   container: {
     backgroundColor: "#B9F1B3",
@@ -30,6 +37,7 @@ const styles = StyleSheet.create({
     color: "white",
     fontSize: 32,
     fontWeight: "bold",
+    marginBottom: 20,
   },
 });
 

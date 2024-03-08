@@ -3,7 +3,7 @@ import { Button, Pressable, SafeAreaView, StatusBar, StyleSheet, Text, View } fr
 const RegisterScreen = ({ navigation }) => {
   return (
     <SafeAreaView style={styles.container}>
-      <Text style={styles.title}>Register</Text>
+      <Text style={styles.title}>ADRIAN</Text>
       <Text style={styles.subtitle}>Hola crea una cuenta aquí</Text>
       <Pressable
         title="Register"
@@ -16,7 +16,7 @@ const RegisterScreen = ({ navigation }) => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#fff",
+    backgroundColor: "#B9F1B3",
     alignItems: "center",
     justifyContent: "center",
   },
