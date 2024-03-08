@@ -1,0 +1,8 @@
+{
+    "Roboto": {
+      "regular": "./fonts/Roboto-Regular.ttf",
+      "bold": "./fonts/Roboto-Bold.ttf",
+      "italic": "./fonts/Roboto-Italic.ttf",
+      "boldItalic": "./fonts/Roboto-BoldItalic.ttf"
+    }
+  }
